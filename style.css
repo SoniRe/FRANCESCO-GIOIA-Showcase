@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(./Gilroy-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  /* cursor: none; */
+}
+
+#cursor {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#nav h3 {
+  font-weight: 400;
+}
+
+#nav #right {
+  display: flex;
+}
+
+#nav #right h3 {
+  margin-left: 60px;
+}
+
+#middle {
+  margin-top: 30px;
+  height: 70%;
+  width: 100%;
+  position: relative;
+}
+
+#middle .card {
+  height: 400px;
+  width: 300px;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#middle #first {
+  position: absolute;
+  top: 10.5%;
+  left: 52%;
+  transform: translate(-50%, 0);
+  rotate: 10deg;
+}
+
+#middle #second {
+  position: absolute;
+  top: 10%;
+  left: 51%;
+  transform: translate(-50%, 0);
+  rotate: 6deg;
+}
+
+#middle #third {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  /* background-color: red; */
+}
+
+#text span {
+  font-size: 140px;
+  font-weight: 400;
+}
+
+#text #starting {
+  position: absolute;
+  top: 40%;
+  left: 18%;
+}
+
+#text #mid {
+  position: absolute;
+  top: 61%;
+  left: 30%;
+}
+
+#text #last {
+  position: absolute;
+  top: 82%;
+  left: 45%;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 85px;
+}
+
+#footer h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#divided-heading {
+  text-align: center;
+}
